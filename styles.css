@@ -1,0 +1,93 @@
+body{
+  background-color:#FFD5FD;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#titulo{
+  height: 125px;
+  background-color: white;
+  color: #8600E0;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+}
+
+.mainbuttons{
+  text-align: center;
+}
+
+button{
+  font-size: 32px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: palevioletred;
+  border-color: green;
+  background-color: rgb(154, 244, 244);
+  padding: 10px;
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: solid;
+  transition: opacity 15ms;
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
+}
+
+
+button:hover{
+  opacity: 0.8;
+  
+}
+button:active{
+  opacity: 0.5;
+}
+
+#main{
+  background-color: #C7FFBD;
+  width: 80%;
+  height: 2500px;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-top: 15px;
+  border-color: rgb(240, 240, 122);
+  border-width: 5px;
+  border-style: solid;
+}
+
+h2{
+  color: rgb(240, 240, 122);
+  -webkit-text-stroke: 0.5px black;
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+h3 {
+  color: rgb(240, 170, 234);
+  -webkit-text-stroke: 0.5px black;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-size: x-large;
+}
+
+
+.text{
+  color: rgb(240, 240, 122);
+  -webkit-text-stroke: 0.5px black;
+  font-family: "Comic Neue", cursive;
+}
+
+li{
+  font-size: 30px;
+  margin-left: 32px;
+}
+
+text {
+  font-family: "Comic Neue", cursive;
+}
